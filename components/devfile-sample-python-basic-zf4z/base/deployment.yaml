@@ -9,9 +9,8 @@ metadata:
     app.kubernetes.io/name: devfile-sample-python-basic-zf4z
     app.kubernetes.io/part-of: pt-test-app-75
   name: devfile-sample-python-basic-zf4z
-  namespace: lpardo-tenant
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:

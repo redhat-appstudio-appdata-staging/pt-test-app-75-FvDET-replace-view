@@ -9,10 +9,10 @@ metadata:
     app.kubernetes.io/name: devfile-sample-python-basic-zf4z
     app.kubernetes.io/part-of: pt-test-app-75
   name: devfile-sample-python-basic-zf4z
-  namespace: lpardo-tenant
 spec:
   ports:
-  - port: 8081
+  - name: "8081"
+    port: 8081
     targetPort: 8081
   selector:
     app.kubernetes.io/instance: devfile-sample-python-basic-zf4z
